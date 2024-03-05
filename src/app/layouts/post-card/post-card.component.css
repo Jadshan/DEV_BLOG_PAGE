@@ -1,0 +1,16 @@
+.example-card {
+  max-width: 340px;
+  min-height: 340px;
+  max-height: 340px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+.example-header-image {
+  background-size: cover;
+}
+
+.card-image-container {
+  height: 200px; /* Adjust as needed */
+  overflow: hidden;
+}

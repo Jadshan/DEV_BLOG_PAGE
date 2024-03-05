@@ -1,0 +1,22 @@
+<div class="container">
+
+ <mat-card>
+  <mat-card-header>
+   <h2 class="text-black">{{categoryName}} posts</h2>
+  </mat-card-header>
+  <mat-card-content>
+   <p class="text-black">{{categoryName}} Related posts are here </p>
+  </mat-card-content>
+ </mat-card>
+
+</div>
+
+
+<div class="container mt-5 mb-5">
+ <div class="row">
+  <div class="col-md-4 mb-3" *ngFor="let categoryPost of categoryPosts">
+   <app-post-card [postData]="categoryPost"></app-post-card>
+  </div>
+
+ </div>
+</div>

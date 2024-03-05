@@ -1,0 +1,13 @@
+.example-header-image {
+  background-size: cover;
+}
+
+.card-image-container {
+  height: 220px; /* Adjust as needed */
+  overflow: hidden;
+}
+.singlePostCard {
+  margin: 15px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
